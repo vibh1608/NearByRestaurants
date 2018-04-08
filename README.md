@@ -14,6 +14,7 @@ Once user chooses a particular restaurant he should be able to navigate to it vi
 
 Database to be used is Google Firebase.
 
+   All the owners and guest data is getting stored on firebase databse and users are getting verified by firebase authentication .
    
    This application is having some problems while running in android version Marshmello but working fine in other android versions .
    
