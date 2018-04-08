@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:restaurant_cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/restaurant_cardview"
+    restaurant_cardview:cardBackgroundColor="@color/trans"
+    restaurant_cardview:cardCornerRadius="3dp"
+    restaurant_cardview:cardMaxElevation="4dp"
+    restaurant_cardview:cardElevation="2dp"
+    restaurant_cardview:contentPadding="2dp"
+    android:padding="1dp"
+    restaurant_cardview:cardUseCompatPadding="true"
+    restaurant_cardview:cardPreventCornerOverlap="false">
+
+    <LinearLayout
+        android:id="@+id/card_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hotel_name"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Name"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/hotel_vicinity"
+            android:text="Vicinity"
+            android:layout_width="match_parent"
+            android:layout_height="18sp" />
+
+        <TextView
+            android:id="@+id/hotel_menu"
+            android:text="Menu"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/hotel_timings"
+            android:text="Timings"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/hotel_contact_info"
+            android:text="Contact Info"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

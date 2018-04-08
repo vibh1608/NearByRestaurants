@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NearbyRestaurants</string>
+
+    <array name="genres">
+        <item>Owner</item>
+        <item>Guest</item>
+    </array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_owner_restaurant_screen">Map</string>
+
+</resources>
